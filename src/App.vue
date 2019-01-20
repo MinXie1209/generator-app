@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    
-    <HelloWorld msg=""/>
+    <Generator />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Generator from './components/generator.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Generator
   }
 }
 </script>
